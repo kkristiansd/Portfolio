@@ -28,27 +28,27 @@ const Navbar = () => {
         <div>
           <ul className="hidden md:flex">
             <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:boarder-b text-white">
+              <li className="ml-10 text-lg uppercase hover:boarder-b text-white">
                 home
               </li>
             </Link>
             <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:boarder-b text-white">
+              <li className="ml-10 text-lg uppercase hover:boarder-b text-white">
                 about Me
               </li>
             </Link>
             <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:boarder-b text-white">
+              <li className="ml-10 text-lg uppercase hover:boarder-b text-white">
                 projects
               </li>
             </Link>
             <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:boarder-b text-white">
+              <li className="ml-10 text-lg uppercase hover:boarder-b text-white">
                 skills
               </li>
             </Link>
             <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:boarder-b text-white">
+              <li className="ml-10 text-lg uppercase hover:boarder-b text-white">
                 Contact
               </li>
             </Link>
@@ -67,7 +67,7 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? "fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#323CC0] p-10 ease-in duration-500"
+              ? "fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#270a2e] p-10 ease-in duration-500"
               : "fixed left-[-100%] top-0 p-10 ease-in duration-500"
           }
         >
