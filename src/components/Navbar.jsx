@@ -17,12 +17,12 @@ const Navbar = () => {
   };
 
   return (
-    <div className="fixed w-full h-20 shadow-xl z-[100]">
-      <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
+    <div className="fixed w-full h-20 shadow-xl z-[500] bg-neutral-800 bg-opacity-75 ">
+      <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16 ">
         <Image
-          src="/../public/assets/kdlogo5.png"
+          src="/../public/assets/kdlogo.png"
           alt="/"
-          width="125"
+          width="100"
           height="50"
         />
         <div>
@@ -61,27 +61,27 @@ const Navbar = () => {
 
       <div
         className={
-          nav ? "md:hidden fixed left-0 top-0 w-full h-screen bg-black/50" : ""
+          nav ? "md:hidden fixed left-0 top-0 w-full h-screen bg-[#390847]/50" : ""
         }
       >
         <div
           className={
             nav
-              ? "fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#270a2e] p-10 ease-in duration-500"
+              ? "fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-neutral-800 p-10 ease-in duration-500"
               : "fixed left-[-100%] top-0 p-10 ease-in duration-500"
           }
         >
           <div>
             <div className="flex w-full items-center justify-between">
               <Image
-                src="/../public/assets/kdlogo5.png"
+                src="/../public/assets/kdlogo.png"
                 width="100"
                 height="35"
                 alt="/"
               />
               <div
                 onClick={handleNav}
-                className="rounded-full shadow-lg shadow-gray-800"
+                className="rounded-full shadow shadow-white"
               >
                 <TiTimes size={35} color={"white"} />
               </div>
@@ -109,13 +109,13 @@ const Navbar = () => {
                   Check me out
                 </p>
                 <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
-                  <div className="rounded-full shadow-lg shadow-gray-800 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                  <div className="rounded-full shadow shadow-white p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                     <TiSocialGithub size={35} color={"white"} />
                   </div>
-                  <div className="rounded-full shadow-lg shadow-gray-800 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                  <div className="rounded-full shadow shadow-white p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                     <TiSocialInstagram size={35} color={"white"} />
                   </div>
-                  <div className="rounded-full shadow-lg shadow-gray-800 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                  <div className="rounded-full shadow shadow-white p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                     <TiSocialFacebook size={35} color={"white"} />
                   </div>
                 </div>
