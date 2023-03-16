@@ -29,11 +29,6 @@ const Navbar = () => {
           <ul className="hidden md:flex">
             <Link href="/">
               <li className="ml-10 text-lg uppercase hover:boarder-b text-white">
-                home
-              </li>
-            </Link>
-            <Link href="/">
-              <li className="ml-10 text-lg uppercase hover:boarder-b text-white">
                 about Me
               </li>
             </Link>
@@ -88,9 +83,6 @@ const Navbar = () => {
             </div>
             <div className="py-4 flex flex-col">
               <ul className="uppercase">
-                <Link href="/">
-                  <li className="py-4 text-sm text-white ">Home</li>
-                </Link>
                 <Link href="/">
                   <li className="py-4 text-sm text-white ">About Me</li>
                 </Link>

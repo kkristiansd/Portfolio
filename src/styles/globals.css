@@ -26,5 +26,11 @@
   button{
     @apply shadow-xl shadow-gray-900 rounded-xl uppercase bg-gradient-to-r from-[#0C114C] to-[#323CC0] text-white
   }
+  html,
+  
+body {
+  overflow: auto;
+  background: radial-gradient(ellipse at bottom, #390847 0%, #0b000c 100%);
+}
   
 }
