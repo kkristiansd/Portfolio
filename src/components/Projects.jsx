@@ -25,7 +25,7 @@ const Projects = () => {
               <div className="absolute inset-0 transform hover:scale-75 transition duration-300 ">
                 <div className="h-full w-full ">
                   <Image
-                    src="/../public/assets/projectPortfolio.png"
+                    src="/../public/assets/projects/projectPortfolio.png"
                     alt="/"
                     width="400"
                     height="30"
@@ -40,7 +40,7 @@ const Projects = () => {
               <div className="absolute inset-0 transform hover:scale-75 transition duration-300">
                 <div className="h-full w-full ">
                   <Image
-                    src="/../public/assets/commingSoon.png"
+                    src="/../public/assets/projects/commingSoon.png"
                     alt="/"
                     width="400"
                     height="30"

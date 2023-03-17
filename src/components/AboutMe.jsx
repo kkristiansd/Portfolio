@@ -37,9 +37,10 @@ const AboutMe = () => {
             alt=""
             width="400"
             height="400"
+            
             onLoad={handleImageLoad}
             style={{
-              transform: inView ? "translateX(0)" : "translateX(700px)",
+              transform: inView ? "translateX(0)" : "translateX(360px)",
               transition: "transform 1s ease-out",
             }}
             {...{ ref }}

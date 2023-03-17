@@ -3,11 +3,7 @@ import Navbar from '@/components/Navbar'
 import Head from 'next/head'
 import AboutMe from '@/components/AboutMe'
 import Projects from '@/components/Projects'
-
-
-
-
-
+import Skills from '@/components/Skills'
 
 
 export default function Home() {
@@ -27,6 +23,9 @@ export default function Home() {
       </div>
       <div>
         <div className='p-4 flex items-center justify-center mt-20'><Projects></Projects></div>
+      </div>
+      <div>
+        <div className='p-4 flex items-center justify-center mt-20'><Skills></Skills></div>
       </div>
       
     
