@@ -25,19 +25,19 @@ const Navbar = () => {
           width="100"
           height="50"
         />
-        <div>
+        <div className='scroll-smooth'>
           <ul className="hidden md:flex">
-            <Link href="/">
+            <Link href="/#aboutMe">
               <li className="ml-10 text-lg uppercase hover:boarder-b text-white">
                 about Me
               </li>
             </Link>
-            <Link href="/">
+            <Link href="/#projects">
               <li className="ml-10 text-lg uppercase hover:boarder-b text-white">
                 projects
               </li>
             </Link>
-            <Link href="/">
+            <Link href="/#skills">
               <li className="ml-10 text-lg uppercase hover:boarder-b text-white">
                 skills
               </li>
