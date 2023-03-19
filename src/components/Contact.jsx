@@ -13,7 +13,7 @@ function Contact() {
           width="480"
           height="273"
           frameBorder="0"
-          class="giphy-embed shadow-2xl shadow-purple-800"
+          class="giphy-embed shadow-2xl shadow-purple-800 my-10"
           allowFullScreen
         ></iframe>
         <p></p>
