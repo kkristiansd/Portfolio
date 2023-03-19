@@ -5,6 +5,7 @@ import AboutMe from '@/components/AboutMe'
 import Projects from '@/components/Projects'
 import Skills from '@/components/Skills'
 import Contact from '@/components/Contact'
+import Footer from '@/components/Footer'
 
 
 
@@ -29,8 +30,11 @@ export default function Home() {
       <div id='skills'> 
         <div className='p-4 flex items-center justify-center mt-20'><Skills></Skills></div>
       </div>
-      <div id='skills'> 
+      <div id='contact'> 
         <div className='p-4 flex items-center justify-center mt-20'><Contact></Contact></div>
+      </div>
+      <div>
+      <Footer></Footer>
       </div>
     </div>
 

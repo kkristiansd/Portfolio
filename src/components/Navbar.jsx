@@ -42,9 +42,9 @@ const Navbar = () => {
                 skills
               </li>
             </Link>
-            <Link href="/">
+            <Link href="/#contact">
               <li className="ml-10 text-lg uppercase hover:boarder-b text-white">
-                Contact
+                contact
               </li>
             </Link>
           </ul>
