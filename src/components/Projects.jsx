@@ -11,7 +11,7 @@ const Projects = () => {
               <div className="absolute inset-0 transform hover:scale-75 transition duration-300">
                 <div className="h-full w-full shadow-2xl">
                   <Image
-                    src="/../public/assets/projectChess.png"
+                    src="/../public/assets/projects/projectChess.png"
                     alt="/"
                     width="400"
                     height="30"

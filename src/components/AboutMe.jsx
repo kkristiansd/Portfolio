@@ -21,7 +21,7 @@ const AboutMe = () => {
       <div className="flex space-x-8 h-100">
         <div className="p-1 w-2/3">
           <p className="text-2xl italic leading-relaxed indent-8 text-justify ml-12 mr-12 mt-10 ">
-            <p className="not-italic">Hey, I'm Kris.</p> I'm a Software Technology Engineering student from
+            <span className="not-italic">Hey, I'm Kris.</span> I'm a Software Technology Engineering student from
             Latvia. I'm a team player, motivated, and goal-oriented. My passion
             for software engineering is fueled by the belief that technology can
             transform the world. In my free time, I enjoy exploring new
@@ -29,10 +29,10 @@ const AboutMe = () => {
             for visiting my portfolio website!
           </p>
         </div>
-        <div className="p-1 w-1/3 flex justify-center items-center">
+        <div className="p-1 w-1/3 flex justify-center items-center ">
           <Image
             ref={imageRef}
-            className="rounded-full border border-transparent shadow-2xl shadow-purple-800"
+            className="rounded-full border border-transparent shadow-2xl shadow-purple-800 overflow-hidden"
             src="/../public/assets/myAvatar (1).png"
             alt=""
             width="400"
