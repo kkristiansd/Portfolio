@@ -17,39 +17,39 @@ const Navbar = () => {
   };
 
   return (
-    <div className="fixed w-full h-20 shadow-xl z-[500] bg-neutral-800 bg-opacity-75 ">
-      <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16 ">
+    <div className="fixed w-full h-15 shadow-xl z-[500] bg-neutral-800 bg-opacity-75 ">
+      <div className="flex justify-between items-center w-full h-full px-2 2xl:px-12 ">
         <Image
           src="/../public/assets/kdlogo.png"
           alt="/"
-          width="100"
-          height="50"
+          width="77"
+          height="38"
         />
         <div className='scroll-smooth'>
           <ul className="hidden md:flex">
             <Link href="/#aboutMe">
-              <li className="ml-10 text-lg uppercase hover:boarder-b text-white">
+              <li className="ml-8 text-sm uppercase hover:boarder-b text-white">
                 about Me
               </li>
             </Link>
             <Link href="/#projects">
-              <li className="ml-10 text-lg uppercase hover:boarder-b text-white">
+              <li className="ml-8 text-sm uppercase hover:boarder-b text-white">
                 projects
               </li>
             </Link>
             <Link href="/#skills">
-              <li className="ml-10 text-lg uppercase hover:boarder-b text-white">
+              <li className="ml-8 text-sm uppercase hover:boarder-b text-white">
                 skills
               </li>
             </Link>
             <Link href="/#contact">
-              <li className="ml-10 text-lg uppercase hover:boarder-b text-white">
+              <li className="ml-8 text-sm uppercase hover:boarder-b text-white">
                 contact
               </li>
             </Link>
           </ul>
           <div onClick={handleNav} className="md:hidden">
-            <TiThMenu size={35} color={"white"} />
+            <TiThMenu size={27} color={"white"} />
           </div>
         </div>
       </div>
@@ -62,8 +62,8 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? "fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-neutral-800 p-10 ease-in duration-500"
-              : "fixed left-[-100%] h-screen top-0 p-10 ease-in duration-500"
+              ? "fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-neutral-800 p-6 ease-in duration-500"
+              : "fixed left-[-100%] h-screen top-0 p-6 ease-in duration-500"
           }
         >
           <div>
