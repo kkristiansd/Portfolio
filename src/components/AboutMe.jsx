@@ -21,8 +21,8 @@ const AboutMe = () => {
       <div className="flex space-x-8 h-100 ">
         <div className="p-1 w-2/3">
           <p className="text-xl italic leading-relaxed indent-8 text-justify ml-12 mr-12 mt-10 ">
-            <span className="not-italic">Hey, I'm Kris.</span> I'm a Software
-            Technology Engineering student from Latvia. I'm a team player,
+            <span className="not-italic">Hey, I am Kris.</span> I am a Software
+            Technology Engineering student from Latvia. I am a team player,
             motivated, and goal-oriented. My passion for software engineering is
             fueled by the belief that technology can transform the world. In my
             free time, I enjoy exploring new technologies and experimenting with
