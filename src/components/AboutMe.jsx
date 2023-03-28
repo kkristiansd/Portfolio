@@ -41,7 +41,7 @@ const AboutMe = () => {
           {...{ ref }}
         >
           <Image
-            className="rounded-full border border-transparent shadow-2xl shadow-purple-800 animate-slide-right"
+            className="rounded-full border border-transparent shadow-xl shadow-purple-800 animate-slide-right"
             src={myavatar}
             alt=""
             width="400"

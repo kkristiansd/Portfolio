@@ -1,7 +1,24 @@
-import React from "react";
+import React, { useState } from "react";
 import { useForm, ValidationError } from "@formspree/react";
+import ReCAPTCHA from "react-google-recaptcha";
+
 function Contact() {
   const [state, handleSubmit] = useForm("xzbqvlww");
+  const [recaptchaToken, setRecaptchaToken] = useState(null);
+
+  const handleRecaptchaChange = (token) => {
+    setRecaptchaToken(token);
+  };
+
+  const onSubmit = (event) => {
+    event.preventDefault();
+    if (!recaptchaToken) {
+      alert("Please confirm you're not a robot!");
+      return;
+    }
+    handleSubmit(event);
+  };
+
   if (state.succeeded) {
     return (
       <div>
@@ -26,7 +43,7 @@ function Contact() {
         <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
           <h2 className="text-5xl font-bold text-center mb-8">Contact Me</h2>
           <p class="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">
-            Got a job offer? Porject offer? Or just want to chat? Let me know.
+            Got a job offer? Project offer? Or just want to chat? Let me know.
           </p>
           <form onSubmit={handleSubmit} class="space-y-8 ">
             <div>
@@ -70,6 +87,9 @@ function Contact() {
                 errors={state.errors}
               />
             </div>
+            
+
+          
             <button
               type="submit"
               disabled={state.submitting}
