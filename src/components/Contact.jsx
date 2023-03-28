@@ -28,7 +28,7 @@ function Contact() {
           <p class="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">
             Got a job offer? Porject offer? Or just want to chat? Let me know.
           </p>
-          <form onSubmit={handleSubmit} action="https://formspree.io/f/a_form_id" method="POST" class="space-y-8">
+          <form onSubmit={handleSubmit} class="space-y-8">
             <div>
               <label
                 htmlFor="email"
