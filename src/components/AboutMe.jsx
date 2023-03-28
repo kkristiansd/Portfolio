@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React, { useRef } from "react";
 import { useInView } from "react-intersection-observer";
-import kdlogo from '/public/assets/kdlogo.png'
+import myavatar from './public/assets/myAvatar.png'
 
 const AboutMe = () => {
   const [ref, inView] = useInView({
@@ -42,7 +42,7 @@ const AboutMe = () => {
         >
           <Image
             className="rounded-full border border-transparent shadow-2xl shadow-purple-800"
-            src={kdlogo}
+            src={myavatar}
             alt=""
             width="400"
             height="400"

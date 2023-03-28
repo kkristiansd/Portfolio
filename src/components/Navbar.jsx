@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import kdlogo from './public/assets/kdlogo.png'
 import {
   TiThMenu,
   TiSocialGithub,
@@ -20,7 +21,7 @@ const Navbar = () => {
     <div className="fixed w-full h-15 shadow-xl z-[500] bg-neutral-800 bg-opacity-75 ">
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-12 ">
         <Image
-          src="/../public/assets/kdlogo.png"
+          src={kdlogo}
           alt="/"
           width="77"
           height="38"
