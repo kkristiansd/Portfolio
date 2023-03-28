@@ -1,4 +1,8 @@
 import Image from "next/image";
+import commingsoon from "/public/assets/projects/commingSoon.png"
+import chess from "/public/assets/projects/projectChess.png"
+import portfolio from "/public/assets/projects/projectPortfolio.png"
+
 
 const Projects = () => {
   return (
@@ -11,7 +15,7 @@ const Projects = () => {
               <div className="absolute inset-0 transform hover:scale-75 transition duration-300">
                 <div className="h-full w-full shadow-2xl">
                   <Image
-                    src="/../public/assets/projects/projectChess.png"
+                    src={chess}
                     alt="/"
                     width="400"
                     height="30"
@@ -32,7 +36,7 @@ const Projects = () => {
               <div className="absolute inset-0 transform hover:scale-75 transition duration-300 ">
                 <div className="h-full w-full ">
                   <Image
-                    src="/../public/assets/projects/projectPortfolio.png"
+                    src={portfolio}
                     alt="/"
                     width="400"
                     height="30"
@@ -52,7 +56,7 @@ const Projects = () => {
               <div className="absolute inset-0 transform hover:scale-75 transition duration-300">
                 <div className="h-full w-full ">
                   <Image
-                    src="/../public/assets/projects/commingSoon.png"
+                    src={commingsoon}
                     alt="/"
                     width="400"
                     height="30"

@@ -1,6 +1,16 @@
 import Image from "next/image";
 import React, { useRef } from "react";
 import { useInView } from "react-intersection-observer";
+import bootstrap from "/public/assets/skills/bootstrap.png"
+import csharp from "/public/assets/skills/csharp.png"
+import css from "/public/assets/skills/css.png"
+import html from "/public/assets/skills/html.png"
+import java from "/public/assets/skills/java.png"
+import javascript from "/public/assets/skills/javascript.png"
+import nextjs from "/public/assets/skills/nextjs.png"
+import postgrsql from "/public/assets/skills/postgrsql.png"
+import react from "/public/assets/skills/react.png"
+import tailwind from "/public/assets/skills/tailwind.png"
 
 const Skills = () => {
   const [ref, inView] = useInView({
@@ -29,70 +39,70 @@ const Skills = () => {
         {...{ ref }}
       >
         <Image
-          src="/../public/assets/skills/java.png"
+          src={java}
           width="80"
           height="50"
           alt="Java"
           className=" mx-4 my-2 "
         />
         <Image
-          src="/../public/assets/skills/csharp.png"
+          src={csharp}
           width="80"
           height="50"
           alt="C#"
           className=" mx-4 my-2"
         />
         <Image
-          src="/../public/assets/skills/postgrsql.png"
+          src={postgrsql}
           width="80"
           height="50"
           alt="PostgreSQL"
           className=" mx-4 my-2"
         />
         <Image
-          src="/../public/assets/skills/html.png"
+          src={html}
           width="80"
           height="50"
           alt="HTML"
           className="mx-4 my-2"
         />
         <Image
-          src="/../public/assets/skills/css.png"
+          src={css}
           width="80"
           height="50"
           alt="CSS"
           className="mx-4 my-2"
         />
         <Image
-          src="/../public/assets/skills/bootstrap.png"
+         src={bootstrap}
           width="80"
           height="50"
           alt="Bootstrap"
           className=" mx-4 my-2"
         />
         <Image
-          src="/../public/assets/skills/tailwind.png"
+          src={tailwind}
           width="80"
           height="50"
           alt="Tailwind"
           className=" mx-4 my-2"
         />
         <Image
-          src="/../public/assets/skills/react.png"
+          src={react}
           width="80"
           height="50"
           alt="React.js"
           className=" mx-4 my-2"
         />
         <Image
-          src="/../public/assets/skills/nextjs.png"
+          src={nextjs}
           width="80"
           height="50"
           alt="Next.js"
           className=" mx-4 my-2"
         />
         <Image
-          src="/../public/assets/skills/javascript.png"
+          src={javascript}
           width="80"
           height="50"
           alt="JavaScript"
