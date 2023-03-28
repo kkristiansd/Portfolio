@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import kdlogo from './public/assets/kdlogo.png'
+import kdlogo from '/public/assets/kdlogo.png'
 import {
   TiThMenu,
   TiSocialGithub,

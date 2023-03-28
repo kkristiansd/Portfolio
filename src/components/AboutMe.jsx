@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React, { useRef } from "react";
 import { useInView } from "react-intersection-observer";
-import myavatar from './public/assets/myAvatar.png'
+import myavatar from '/public/assets/myAvatar.png'
 
 const AboutMe = () => {
   const [ref, inView] = useInView({
