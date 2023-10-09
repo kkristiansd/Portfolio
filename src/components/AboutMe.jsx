@@ -7,7 +7,7 @@ const AboutMe = () => {
   const [ref, inView] = useInView({
     threshold: 0.1,
   });
-
+  
   const avatarRef = useRef();
 
   const handleAvatarLoad = () => {
@@ -17,10 +17,14 @@ const AboutMe = () => {
   };
 
   return (
-    <div className="p-8 bg-transparent max-w-5xl mx-auto overflow-hidden">
-      <h2 className="text-5xl text-center mb-8">About Me</h2>
-      <div className="flex space-x-8 h-100 ">
-        <div className="p-1 w-2/3 about-text">
+    <div className="p-8 bg-transparent  mx-auto overflow-hidden  ">
+      <div className="text-5xl text-center mb-8">
+         <h1 >About Me</h1>
+      </div>
+     
+      <div className="flex ">
+        <div className="flex justify-start ">
+           <div className="p-1 w-1/2 about-text">
           <p className="text-xl italic leading-relaxed indent-8 text-justify ml-12 mr-12 mt-10 ">
             <span className="not-italic">Hey, I am Kris.</span> I am a Software
             Technology Engineering student from Latvia. I am a team player,
@@ -32,7 +36,7 @@ const AboutMe = () => {
         </div>
         <div
           ref={avatarRef}
-          className="p-1 w-1/3 flex justify-center items-center transform transition-transform duration-1000"
+          className="p-1 w-1/2 flex justify-center items-center transform transition-transform duration-1000"
           onLoad={handleAvatarLoad}
           style={{
             transform: inView ? "translateX(0)" : "translateX(260px)",
@@ -48,6 +52,8 @@ const AboutMe = () => {
             height="400"
           />
         </div>
+        </div>
+       
       </div>
     </div>
   );
